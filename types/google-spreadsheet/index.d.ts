@@ -14,7 +14,7 @@ export type HyperlinkDisplayType = 'LINKED' | 'PLAIN_TEXT';
 
 export type CellValueType = 'boolValue' | 'stringValue' | 'numberValue' | 'errorValue';
 
-export type NumberFormatType = 'TEXT' | 'NUMBER' | 'PERCENT' | 'CURRENCY' | 'DATE' | 'TIME' | 'SCIENTIFIC';
+export type NumberFormatType = 'TEXT' | 'NUMBER' | 'PERCENT' | 'CURRENCY' | 'DATE' | 'TIME' | 'DATE_TIME' | 'SCIENTIFIC';
 
 export type CellErrorType =
     | 'ERROR'
